@@ -1,0 +1,27 @@
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Full viewport height */
+    
+}
+
+.content {
+    flex-grow: 1; /* Push footer to the bottom */
+    display: flex;
+    flex-direction: column;
+    /* justify-content:end; Center content vertically */
+}
+
+.footer {
+    background-color: #f8f9fa; /* Example footer background color */
+    color: #333;
+    text-align: center;
+    padding: 15px 0; /* Increased padding for better spacing */
+    width: 100%;
+    
+}
